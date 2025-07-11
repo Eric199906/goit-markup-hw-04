@@ -160,6 +160,7 @@ ul{
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 .nav-header{
     display: flex;
