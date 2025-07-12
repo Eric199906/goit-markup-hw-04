@@ -101,6 +101,7 @@ body{
 .website-team{
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 8px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -183,7 +184,8 @@ img{
     display: block;
 }
 .section-mtwo{
-    padding: 120px 0;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .visually-hidden{
     position: absolute;
@@ -200,4 +202,7 @@ img{
     gap: 24px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.benefits-list{
+    width: calc((100% - 3 * 24px) /4);
 }
