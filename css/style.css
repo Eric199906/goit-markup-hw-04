@@ -26,6 +26,8 @@ body{
     justify-content: space-between;
 }
 .header-logo{
+    display: inline-block;
+    margin-bottom: 16px;
     margin-right: 76px;
     font-size: 18px;
     line-height: 1.17;
@@ -159,10 +161,12 @@ body{
 }
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .paragraph-footer{
     line-height: 1.5;
     color: #F4F4FD;
+    max-width: 264px;
     letter-spacing: 0.02em;
 }
 span.footer-logo{
