@@ -20,6 +20,11 @@ body{
     margin: 0;
     border-bottom: 1px solid #e7e9fc;
 }
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header-logo{
     margin-right: 76px;
     font-size: 18px;
@@ -116,7 +121,7 @@ body{
 .team-info{
     color: #434455;
     text-align: center;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -137,15 +142,20 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 .list-team{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     background-color: #ffffff;
-}
-.list-team li{
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    padding: 0;
+    margin: 0;
 }
 .footer{
     background-color: #2e2f42;
@@ -172,8 +182,7 @@ a{
 ul{
     list-style: none;
 }
-.container{
-    display: flex;
+.container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -198,7 +207,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-.contact-list:last-child{
+.contact-list li:last-child{
     margin right: 0;
 }
 img{
@@ -238,11 +247,15 @@ img{
     column-gap: 24px;
 }
 .list-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: calc((100% - 48px) / 3);
 }
-.list-banner div{
+.container-list{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
+    text-align: center;
+    width: 100%;
 }
