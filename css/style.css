@@ -104,9 +104,14 @@ body{
     margin-bottom: 8px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 3 * 24px) /4);
     color: #2e2f42;
 
+}
+.benefits-list{
+    width: calc((100% - 72px) / 4);
+}
+.feature-title {
+    margin-bottom: 8px;
 }
 .team-info{
     color: #434455;
@@ -185,21 +190,24 @@ img{
     display: block;
 }
 .section-mtwo{
-    padding: 120px 0 120px;
+    padding: 120px 0;
 }
 .visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    border: 0;
+    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .benefits{
     display: flex;
     gap: 24px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
