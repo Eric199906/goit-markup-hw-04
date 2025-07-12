@@ -235,6 +235,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
+    column-gap: 24px;
 }
 .list-banner{
     width: calc((100% - 48px) / 3);
