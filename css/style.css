@@ -1,11 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
-    width: 100%;
-    min-height: 100vh;
     line-height: 1.6;
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -27,7 +20,6 @@ body{
 }
 .header-logo{
     display: inline-block;
-    margin-bottom: 16px;
     margin-right: 76px;
     font-size: 18px;
     line-height: 1.17;
@@ -44,6 +36,7 @@ body{
 .list-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 500;
@@ -77,14 +70,9 @@ body{
     padding-bottom: 188px;
     text-align: center;
 }
-.main-section .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
 .page-title{
-    font-size: 64px;
+    font-size: 56px;
+    margin: auto;
     line-height: 1.1;
     max-width: 496px;
     letter-spacing: 0.02em;
@@ -93,10 +81,12 @@ body{
 }
 .main-button{
     display: block;
+    margin: auto;
     height: 56px;
     border: none;
     min-width: 169px;
-    background-color: #4d5ae5;
+    color: #ffffff;
+    background-color: #4D5AE5;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -118,14 +108,24 @@ body{
     width: calc((100% - 72px) / 4);
 }
 .feature-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     margin-bottom: 8px;
+    line-height: 24px;
+    font-size: 20px;
 }
 .team-info{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #434455;
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.team-section .team-info{
+    text-align: center;
 }
 .our-team{
     background-color: #F4F4FD;
@@ -138,16 +138,12 @@ body{
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    width: 100%;
 }
 .section-ntwo > .container{
     flex-direction: column;
     align-items: center;
 }
 .team-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -155,9 +151,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    background-color: #ffffff;
-    padding: 0;
-    margin: 0;
 }
 .footer{
     background-color: #2e2f42;
@@ -169,7 +162,19 @@ body{
     max-width: 264px;
     letter-spacing: 0.02em;
 }
-span.footer-logo{
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+span.footer-span{
     color: #f4f4fd;
 }
 .banking-app{
@@ -185,6 +190,8 @@ a{
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .container {
     width: 1158px;
@@ -195,7 +202,6 @@ ul{
 .nav-header{
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 .nav-list{
     display: flex;
@@ -221,6 +227,11 @@ img{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.team-section{
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -237,8 +248,6 @@ img{
     display: flex;
     gap: 24px;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .container-name{
     padding-top: 32px;
@@ -251,15 +260,10 @@ img{
     column-gap: 24px;
 }
 .list-banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: calc((100% - 48px) / 3);
 }
 .container-list{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    text-align: center;
-    width: 100%;
 }
