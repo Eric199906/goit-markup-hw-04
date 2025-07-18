@@ -14,6 +14,9 @@ h1, h2, h3, p{
 .header{
     padding: 0;
     margin: 0;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
     border-bottom: 1px solid #e7e9fc;
 }
 .header .container{
@@ -46,6 +49,9 @@ h1, h2, h3, p{
     color: #2e2f42;
     position: relative;
     text-decoration: none;
+}
+.nav-list li:first-child .list-header{
+    color: #404bbf;
 }
 .list-header:hover,
 .list-header:focus{
@@ -210,9 +216,6 @@ ul{
     margin: 0 auto;
 }
 .nav-header{
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
     display: flex;
     align-items: center;
 }
