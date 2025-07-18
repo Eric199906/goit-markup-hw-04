@@ -68,7 +68,9 @@ h1, h2, h3, p{
     color: #404bbf;
 }
 .main-section{
-    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -80,6 +82,7 @@ h1, h2, h3, p{
     line-height: 1.1;
     max-width: 496px;
     letter-spacing: 0.02em;
+
     color:#ffffff;
 
 }
