@@ -41,8 +41,39 @@ h1, h2, h3, p{
 }
 .footer-container{
     display: flex;
+    margin-left: 160px;
     align-items: baseline;
 
+}
+.paragraph-soc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.ul-soc{
+    display: flex;
+    gap: 16px;
+}
+.list-soc{
+    width: 40px;
+    height: 40px;
+
+}
+.link-soc{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-soc:hover,
+.link-soc:focus{
+    background-color: #31d0aa;
 }
 .div-logo{
     margin-right: 120px
