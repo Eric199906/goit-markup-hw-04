@@ -39,6 +39,14 @@ h1, h2, h3, p{
 .header-logo span{
     color: #2e2f42;
 }
+.footer-container{
+    display: flex;
+    align-items: baseline;
+
+}
+.div-logo{
+    margin-right: 120px
+}
 .card-container{
     position: relative;
     overflow: hidden;
