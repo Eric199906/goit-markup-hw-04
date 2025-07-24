@@ -41,7 +41,9 @@ h1, h2, h3, p{
 }
 .footer-container{
     display: flex;
-    margin-left: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
     align-items: baseline;
 
 }
@@ -60,7 +62,6 @@ h1, h2, h3, p{
 .list-soc{
     width: 40px;
     height: 40px;
-
 }
 .link-soc{
     width: 100%;
